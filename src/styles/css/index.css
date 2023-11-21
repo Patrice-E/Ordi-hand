@@ -1,1 +1,30 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
 
+body {
+  margin: 0;
+  background-color: #fafafa;
+  color: #333;
+}
+
+a {
+  text-decoration: none;
+  color: #618b4a;
+}
+
+#root {
+  min-height: 100vh;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}
+
+.banner {
+  background-color: #333;
+  color: #fafafa;
+  box-shadow: inset 0 -1px #fe9000;
+  display: flex;
+  justify-content: center;
+}

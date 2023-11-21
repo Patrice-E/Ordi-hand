@@ -1,0 +1,23 @@
+// Colors
+$dark: #333;
+$light: #fafafa;
+$darkgreen: #618b4a;
+$lightgreen: #affc41;
+$orange: #fe9000;
+
+// Media breakpoints
+$medium: 800px;
+$large: 1024px;
+$huge: 1200px;
+// Media queries
+$breakpoints: (
+  'medium': (
+    min-width: $medium,
+  ),
+  'large': (
+    min-width: $large,
+  ),
+  'huge': (
+    min-width: $huge,
+  ),
+);
