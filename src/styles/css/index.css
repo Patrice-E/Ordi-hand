@@ -66,6 +66,56 @@ a {
   top: 0.5em;
 }
 
+.nav {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #333;
+  width: 70%;
+  height: 100vh;
+  border-right: 2px solid #fe9000;
+  padding: 25px 30px;
+  transform: translateX(-100%);
+  transition: transform 0.3s ease-out;
+}
+.nav__open {
+  transform: translateX(0);
+}
+@media (min-width: 800px) {
+  .nav {
+    width: 40%;
+  }
+}
+@media (min-width: 1024px) {
+  .nav {
+    transform: translateX(0);
+    position: unset;
+    background-color: unset;
+    border-right: unset;
+    padding: unset;
+    width: auto;
+    height: auto;
+    display: flex;
+    align-items: center;
+    gap: 1em;
+  }
+}
+.nav__mainlinks {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+.nav__mainlinks a {
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+}
+@media (min-width: 1024px) {
+  .nav__mainlinks {
+    flex-direction: row;
+  }
+}
+
 .banner {
   background-color: #333;
   color: #fafafa;
