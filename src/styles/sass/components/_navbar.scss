@@ -18,7 +18,7 @@
     width: 40%;
   }
 
-  @include responsive('large') {
+  @include responsive('medium') {
     transform: translateX(0);
     position: unset;
     background-color: unset;
@@ -42,7 +42,7 @@
       gap: 0.5em;
     }
 
-    @include responsive('large') {
+    @include responsive('medium') {
       flex-direction: row;
     }
   }

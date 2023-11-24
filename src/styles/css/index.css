@@ -26,7 +26,7 @@ a {
   top: 45%;
   left: 1em;
 }
-@media (min-width: 1024px) {
+@media (min-width: 800px) {
   .hamburger {
     display: none;
   }
@@ -86,7 +86,7 @@ a {
     width: 40%;
   }
 }
-@media (min-width: 1024px) {
+@media (min-width: 800px) {
   .nav {
     transform: translateX(0);
     position: unset;
@@ -110,7 +110,7 @@ a {
   align-items: center;
   gap: 0.5em;
 }
-@media (min-width: 1024px) {
+@media (min-width: 800px) {
   .nav__mainlinks {
     flex-direction: row;
   }
@@ -129,6 +129,11 @@ a {
   display: flex;
   justify-content: center;
   position: relative;
+}
+@media (min-width: 800px) {
+  .banner__container {
+    justify-content: space-around;
+  }
 }
 
 .footer {

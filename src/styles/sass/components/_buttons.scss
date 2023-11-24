@@ -4,7 +4,7 @@
   top: 45%;
   left: 1em;
 
-  @include responsive('large') {
+  @include responsive('medium') {
     display: none;
   }
 

@@ -11,5 +11,9 @@
     display: flex;
     justify-content: center;
     position: relative;
+
+    @include responsive('medium') {
+      justify-content: space-around;
+    }
   }
 }
