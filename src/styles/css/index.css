@@ -130,3 +130,8 @@ a {
   justify-content: center;
   position: relative;
 }
+
+.footer {
+  display: flex;
+  justify-content: center;
+}

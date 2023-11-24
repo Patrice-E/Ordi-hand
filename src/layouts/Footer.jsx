@@ -1,3 +1,9 @@
 export default function Footer() {
-  return <footer>Footer</footer>;
+  const actualYear = new Date().getFullYear();
+
+  return (
+    <footer className='footer'>
+      <p>Ordi'hand © 2012-{actualYear}</p>
+    </footer>
+  );
 }
