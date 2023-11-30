@@ -1,28 +1,31 @@
 import { NavLink } from 'react-router-dom';
 
-export default function NavBar({ isChecked }) {
+export default function NavBar({ isChecked, setIsChecked }) {
   const navClass = isChecked ? 'nav nav__open' : 'nav';
+  const handleClick = () => {
+    setIsChecked(false);
+  };
 
   return (
     <nav className={navClass}>
       <div className='nav__mainlinks'>
-        <NavLink to='/'>
+        <NavLink to='/' onClick={handleClick}>
           <img src='assets/icons/linux.png' alt='' />
           <span>Linux</span>
         </NavLink>
-        <NavLink to='/'>
+        <NavLink to='/' onClick={handleClick}>
           <img src='assets/icons/winxp.png' alt='' />
           <span>Windows XP</span>
         </NavLink>
-        <NavLink to='/'>
+        <NavLink to='/' onClick={handleClick}>
           <img src='assets/icons/winseven.png' alt='' />
           <span>Windows 7</span>
         </NavLink>
-        <NavLink to='/'>
+        <NavLink to='/' onClick={handleClick}>
           <img src='assets/icons/winten.png' alt='' />
           <span>Windows 10</span>
         </NavLink>
-        <NavLink to='/'>
+        <NavLink to='/contact' onClick={handleClick}>
           <img src='assets/icons/contact.png' alt='' />
           <span>Contact</span>
         </NavLink>

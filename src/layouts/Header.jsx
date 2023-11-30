@@ -10,7 +10,7 @@ export default function Header() {
       <section className='banner__container'>
         <HamburgerButton isCHecked={isChecked} setIsChecked={setIsChecked} />
         <h1>Ordi'hand</h1>
-        <NavBar isChecked={isChecked} />
+        <NavBar isChecked={isChecked} setIsChecked={setIsChecked} />
       </section>
     </header>
   );
