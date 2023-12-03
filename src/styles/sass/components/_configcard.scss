@@ -1,0 +1,21 @@
+.config {
+  border: 1px solid $dark;
+  border-radius: 1em;
+  box-shadow: 2px 2px lighten($color: $dark, $amount: 55);
+  margin-top: 1em;
+  padding: 0 10px 10px;
+
+  &__content {
+    display: flex;
+    align-items: center;
+
+    img {
+      height: 100px;
+    }
+
+    ul {
+      list-style: none;
+      padding-left: 0.5em;
+    }
+  }
+}

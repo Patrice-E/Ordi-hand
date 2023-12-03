@@ -9,19 +9,19 @@ export default function NavBar({ isChecked, setIsChecked }) {
   return (
     <nav className={navClass}>
       <div className='nav__mainlinks'>
-        <NavLink to='/' onClick={handleClick}>
+        <NavLink to='/linux' onClick={handleClick}>
           <img src='assets/icons/linux.png' alt='' />
           <span>Linux</span>
         </NavLink>
-        <NavLink to='/' onClick={handleClick}>
+        <NavLink to='/winxp' onClick={handleClick}>
           <img src='assets/icons/winxp.png' alt='' />
           <span>Windows XP</span>
         </NavLink>
-        <NavLink to='/' onClick={handleClick}>
+        <NavLink to='/winseven' onClick={handleClick}>
           <img src='assets/icons/winseven.png' alt='' />
           <span>Windows 7</span>
         </NavLink>
-        <NavLink to='/' onClick={handleClick}>
+        <NavLink to='/winten' onClick={handleClick}>
           <img src='assets/icons/winten.png' alt='' />
           <span>Windows 10</span>
         </NavLink>
