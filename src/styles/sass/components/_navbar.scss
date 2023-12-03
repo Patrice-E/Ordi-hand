@@ -10,12 +10,16 @@
   transform: translateX(-100%);
   transition: transform 0.3s ease-out;
 
-  &__open {
-    transform: translateX(0);
-  }
-
   @include responsive('medium') {
     width: 40%;
+  }
+
+  a.active {
+    color: $lightgreen;
+  }
+
+  &__open {
+    transform: translateX(0);
   }
 
   @include responsive('medium') {

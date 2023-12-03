@@ -80,13 +80,16 @@ a {
   transform: translateX(-100%);
   transition: transform 0.3s ease-out;
 }
-.nav__open {
-  transform: translateX(0);
-}
 @media (min-width: 800px) {
   .nav {
     width: 40%;
   }
+}
+.nav a.active {
+  color: #affc41;
+}
+.nav__open {
+  transform: translateX(0);
 }
 @media (min-width: 800px) {
   .nav {
