@@ -6,7 +6,7 @@ export default function WinXP() {
     price: 30,
     url: './assets/towers/xp_office_adv.png',
     proc: 'Pentium IV/Athlon 64',
-    ram: '2 Go DDR',
+    ram: '2 Go DDR/DDR2',
     video: '256 Mo PCIe',
     hdd: '160 Go Sata',
     burner: 'DVD Sata',

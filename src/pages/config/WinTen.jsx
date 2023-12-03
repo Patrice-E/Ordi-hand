@@ -15,14 +15,14 @@ export default function WinTen() {
 
   const cfgMediaPerf = {
     title: 'Config multimédia performant',
-    price: 110,
+    price: 120,
     url: './assets/towers/ten_media_perf.png',
-    proc: 'Intel Pentium G',
+    proc: 'Intel i3',
     ram: '4 Go DDR3',
     video: '1024 Mo + HDMI',
-    hdd: '32 Go SSD + 500 Go',
+    hdd: '64 Go SSD + 500 Go',
     burner: 'DVD Sata',
-    os: 'Windows 10 32 bits',
+    os: 'Windows 10 64 bits',
   };
 
   const cfgMediaUlt = {
@@ -32,7 +32,7 @@ export default function WinTen() {
     proc: 'Intel i5/i7',
     ram: '8 Go DDR3',
     video: '2048 Mo PCIe',
-    hdd: '64 Go SSD + 500Go',
+    hdd: '128 Go SSD + 1 To',
     burner: 'DVD Sata',
     os: 'Windows 10 64 bits',
   };

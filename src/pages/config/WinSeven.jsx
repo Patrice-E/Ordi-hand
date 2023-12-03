@@ -15,10 +15,10 @@ export default function WinSeven() {
 
   const cfgMediaAdv = {
     title: 'Config multimédia avancée',
-    price: 90,
+    price: 70,
     url: './assets/towers/seven_media_adv.png',
     proc: 'AMD/Intel Dual core',
-    ram: '4 Go DDR',
+    ram: '4 Go DDR2',
     video: '1024 Mo PCIe + HDMI',
     hdd: '320 Go Sata',
     burner: 'DVD Sata',
