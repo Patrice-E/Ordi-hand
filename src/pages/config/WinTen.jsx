@@ -67,7 +67,7 @@ export default function WinTen() {
     url: './assets/towers/ten_gamer_ult.png',
     proc: 'Intel i7',
     ram: '16 Go DDR3',
-    video: 'gamer 2048Mo',
+    video: 'gamer 4096Mo',
     hdd: '256 Go SSD + 1 To',
     burner: 'DVD Sata',
     os: 'Windows 10 64 bits',
